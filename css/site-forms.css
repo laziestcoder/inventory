@@ -1,0 +1,103 @@
+#main-wrapper .form {
+	margin:10px auto auto auto;
+	width:350px;
+	text-align:left;
+}
+#main-wrapper .form .ni-cont {
+	padding:0 12px 0 0;
+}
+#main-wrapper .form input[type=password].ni,
+#main-wrapper .form input[type=text].ni,
+#main-wrapper .form textarea.ni {
+	padding:3px 5px;
+	width:100%;
+	letter-spacing:-0.7px;
+	color:#bbb;
+	border:1px solid #ddd;
+	margin-bottom:20px;
+	display:block;
+	margin-top:2px;
+}
+#main-wrapper .form input[type=password].ni-small,
+#main-wrapper .form input[type=text].ni-small {
+	padding:3px 10px;
+	width:100px;
+	color:#bbb;
+	border:1px solid #ddd;
+	margin-bottom:20px;
+	display:block;
+	letter-spacing:-0.7px;
+	margin-top:2px;
+}
+#main-wrapper .form input[type=password].ni:hover,
+#main-wrapper .form input[type=password].ni-small:hover,
+#main-wrapper .form input[type=text].ni:hover,
+#main-wrapper .form input[type=text].ni-small:hover,
+#main-wrapper .form textarea.ni:hover {
+	color:#aaa;
+	border-color:#ccc;
+}
+#main-wrapper .form input[type=password].ni:focus,
+#main-wrapper .form input[type=password].ni-small:focus,
+#main-wrapper .form input[type=text].ni:focus,
+#main-wrapper .form input[type=text].ni-small:focus,
+#main-wrapper .form textarea.ni:focus {
+	color:#888;
+	border-color:#bbb;
+}
+
+#main-wrapper .form .select-holder{
+	position:relative;
+	margin-bottom:54px;
+	margin-top:2px;
+}
+#main-wrapper .form .select-holder i {
+	top:7px;
+	right:8px;
+	z-index:99;
+	position:absolute;
+	color:#a5a5a5;
+}
+#main-wrapper .form select {
+	width:100%;
+	height:28px;
+	font-size:12px;
+	border-color:#ddd;
+	color:#bbb;
+	-webkit-appearance:none;
+	-moz-appareance:none;
+	appareance:none;
+	position:absolute;
+	top:0;
+	left:0;
+}
+#main-wrapper .form select:hover {
+	border-color:#ccc;
+	color:#aaa;
+}
+#main-wrapper input[type=button].ni:hover{
+	color:#333;
+	background: #F6F5F5;
+}
+#main-wrapper input[type=button].ni {
+	float:right;
+	margin-right:0px;
+}
+
+#main-wrapper .checkbox {
+	font-size:13px;
+	color:#888;
+	padding:6px 0 8px 0;
+	vertical-align:top;
+}
+#main-wrapper .checkbox input[type=checkbox] {
+	vertical-align:top;
+	margin:3px 5px 0 0;
+}
+
+#main-wrapper input.num {
+	width:70%;
+}
+#main-wrapper input.save {
+	margin:0;
+}

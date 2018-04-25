@@ -1,0 +1,269 @@
+@media only screen and (max-width:920px) {
+	table tbody tr td a { margin-right:4px; }
+	
+	#main-wrapper {
+		width:750px;
+	}
+	
+	#menu ul#menuli li a {
+		padding:8px 15px;
+		font-size:15px;
+	}
+	
+	a.btn, a.btn:active, a.btn:visited, input[type=submit].btn {
+		font-size:12px;
+		padding:4px 8px;
+		margin:-2px 3px 0 3px;
+	}
+	a.btn i {
+		font-size:11px;
+		margin-right:5px;
+	}
+	
+	#table-head form input.search {
+		width:100px;
+	}
+}
+
+@media only screen and (max-width:780px) {
+	h2 {
+		font-size:20px;
+	}
+	h3 {
+		font-size:15px;
+	}
+	#main-wrapper {
+		width:700px;
+	}
+	#menu ul#menuli li a {
+		padding:8px 12px;
+		font-size:14px;
+	}
+	
+	/*********** users.php *************/
+	table#users thead tr td:nth-child(1) { width:7%; }
+	table#users thead tr td:nth-child(2) { width:23%; }
+	table#users thead tr td:nth-child(3) { width:20%; }
+	table#users thead tr td:nth-child(4), table#users tbody tr td:nth-child(4) { display:none; }
+	table#users thead tr td:nth-child(4) { width:19%; }
+	table#users thead tr td:nth-child(5) { width:16%; }
+	table#users thead tr td:nth-child(6) { width:15%; }
+}
+
+@media only screen and (max-width:570px) {
+	#table-head a.btn {
+		overflow:hidden;
+		width:10px;
+		height:16px;
+		padding:4px 12px;
+	}
+	#table-head a.btn i.fa-close {
+		margin-left:1px;
+	}
+}
+
+@media only screen and (max-width:720px) {
+	h2 {
+		font-size:19px;
+	}
+	h3 {
+		font-size:15px;
+	}
+	#main-wrapper {
+		width:600px;
+	}
+	table tbody tr td a { margin-right:1px; }
+	#menu ul#menuli li a {
+		padding:7px 8px;
+		font-size:13px;
+	}
+	#header .right a, #header .right a:active, #header .right a:visited {
+		font-size:16px;
+	}
+	#header .right {
+		margin:18px 10px 0 0;
+	}
+	#header .right a {
+		margin-right:15px;
+		margin-left:15px;
+	}
+	#header .right a:first-child {
+		margin-right:15px;
+	}
+	#header .right a:last-child {
+		margin-left:15px;
+	}
+}
+
+@media only screen and (max-width:610px) {
+	#main-wrapper {
+		width:100%;
+	}
+	
+	#open-menu {
+		display:block;
+		margin-bottom:-5px;
+	}
+	#opmenu.toggle ~ div#menu {
+		height:0;
+		overflow:hidden;
+		margin:0;
+		transition: .6s all cubic-bezier(0.730, -0.485, 0.145, 1.620);
+	}
+	#opmenu.toggle:checked ~ div#menu { height:230px; }
+	
+	#main-wrapper #header .left img {
+		width:100px;
+		height:34px;
+	}
+	
+	#menu ul#menuli li {
+		display:block;
+		margin:0;
+		width:100%;
+		padding:0;
+		text-align:left;
+		border-bottom:1px solid #EAF1F2;
+	}
+	#menu ul#menuli li a {
+		padding:7px 18px;
+		display:block;
+	}
+	
+	
+	/*********** logs.php *************/
+	table#logs thead tr td:nth-child(1), table#logs tbody tr td:nth-child(1) { display:none; }
+	table#logs thead tr td:nth-child(2) { width:18%; }
+	table#logs thead tr td:nth-child(3) { width:28%; }
+	table#logs thead tr td:nth-child(4) { width:11%; }
+	table#logs thead tr td:nth-child(5) { width:11%; }
+	table#logs thead tr td:nth-child(6) { width:20%; }
+	table#logs thead tr td:nth-child(7) { width:12%; }
+}
+
+@media only screen and (max-width:540px) {
+	#main-wrapper .wrapper-pad {
+		padding:0 10px;
+	}
+	
+	/*********** logs.php *************/
+	table#logs thead tr td:nth-child(2) { width:22%; }
+	table#logs thead tr td:nth-child(3) { width:32%; }
+	table#logs thead tr td:nth-child(4) { width:15%; }
+	table#logs thead tr td:nth-child(5) { width:15%; }
+	table#logs thead tr td:nth-child(6), table#logs tbody tr td:nth-child(6) { display:none; }
+	table#logs thead tr td:nth-child(7) { width:16%; }
+}
+
+@media only screen and (max-width:460px) {
+	/*********** users.php *************/
+	table#users thead tr td:nth-child(1) { width:9%; }
+	table#users thead tr td:nth-child(2), table#users tbody tr td:nth-child(2) { display:none; }
+	table#users thead tr td:nth-child(3) { width:30%; }
+	table#users thead tr td:nth-child(5) { width:28%; }
+	table#users thead tr td:nth-child(6) { width:21%; }
+	table#users thead tr td:nth-child(7) { width:12%; }
+}
+
+@media only screen and (max-width:420px) {
+	#header .right a, #header .right a:active, #header .right a:visited {
+		font-size:15px;
+	}
+	#header .right {
+		margin:17px 10px 0 0;
+	}
+	#header .right a {
+		margin-right:10px;
+		margin-left:10px;
+	}
+	#header .right a:first-child {
+		margin-right:10px;
+	}
+	#header .right a:last-child {
+		margin-left:10px;
+	}
+	
+	/*********** All tables *************/
+	table tbody tr td{ font-size:13px; }
+	
+	
+	/*********** Categories.php *************/
+	table#categories thead tr td:nth-child(1) { width:5%; }
+	table#categories thead tr td:nth-child(2), table#categories tbody tr td:nth-child(2) { display:none; }
+	table#categories thead tr td:nth-child(3) { width:32%; }
+	table#categories thead tr td:nth-child(4) { width:21%; }
+	table#categories thead tr td:nth-child(5) { width:14%; }
+	table#categories thead tr td:nth-child(6) { width:17%; }
+	table#categories thead tr td:nth-child(7) { width:11%; }
+	
+	
+	/*********** Items.php *************/
+	table#items thead tr td:nth-child(1) { width:5%; }
+	table#items thead tr td:nth-child(2) { width:6%; }
+	table#items thead tr td:nth-child(3) { width:34%; }
+	table#items thead tr td:nth-child(4), table#items tbody tr td:nth-child(4) { display:none; }
+	table#items thead tr td:nth-child(5) { width:13%; }
+	table#items thead tr td:nth-child(6) { width:14%; }
+	table#items thead tr td:nth-child(7) { width:28%; }
+	
+	/*********** logs.php *************/
+	table#logs thead tr td:nth-child(2) { width:26%; }
+	table#logs thead tr td:nth-child(3) { width:36%; }
+	table#logs thead tr td:nth-child(4) { width:19%; }
+	table#logs thead tr td:nth-child(5) { width:19%; }
+	table#logs thead tr td:nth-child(7), table#logs tbody tr td:nth-child(7) { display:none; }
+}
+
+@media only screen and (max-width:370px) {
+	#header .right a, #header .right a:active, #header .right a:visited {
+		font-size:14px;
+	}
+	#header .right {
+		margin:17px 5px 0 0;
+	}
+	#header .right a {
+		margin-right:7px;
+		margin-left:7px;
+	}
+	
+	
+	/*********** Categories.php *************/
+	table#categories thead tr td:nth-child(1) { width:5%; }
+	table#categories thead tr td:nth-child(3) { width:39%; }
+	table#categories thead tr td:nth-child(4) { width:26%; }
+	table#categories thead tr td:nth-child(5), table#categories tbody tr td:nth-child(5) { display:none; }
+	table#categories thead tr td:nth-child(6) { width:18%; }
+	table#categories thead tr td:nth-child(7) { width:12%; }
+	
+	
+	/*********** Items.php *************/
+	table#items thead tr td:nth-child(1) { width:7%; }
+	table#items thead tr td:nth-child(2) { width:11%; }
+	table#items thead tr td:nth-child(3) { width:41%; }
+	table#items thead tr td:nth-child(4), table#items tbody tr td:nth-child(4) { display:none; }
+	table#items thead tr td:nth-child(5) { width:14%; }
+	table#items thead tr td:nth-child(6), table#items tbody tr td:nth-child(6) { display:none; }
+	table#items thead tr td:nth-child(7) { width:27%; }
+	
+	
+	/*********** New-item.php *************/
+	#main-wrapper .form {
+		width:100%;
+	}
+}
+
+@media only screen and (max-width:360px) {
+	/*********** check-in.php *************/
+	table#items-check thead tr td:nth-child(1) { width:12%; }
+	table#items-check thead tr td:nth-child(2) { width:44%; }
+	table#items-check thead tr td:nth-child(3), table#items-check tbody tr td:nth-child(3) { display:none; }
+	table#items-check thead tr td:nth-child(4) { width:22%; }
+	table#items-check thead tr td:nth-child(5) { width:22%; }
+	
+	/*********** users.php *************/
+	table#users thead tr td:nth-child(1) { width:10%; }
+	table#users thead tr td:nth-child(3) { width:36%; }
+	table#users thead tr td:nth-child(5) { width:36%; }
+	table#users thead tr td:nth-child(6), table#users tbody tr td:nth-child(6) { display:none; }
+	table#users thead tr td:nth-child(7) { width:18%; }
+}

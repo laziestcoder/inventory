@@ -1,0 +1,85 @@
+* {
+  margin:0;
+  padding:0;
+  font-family:Open Sans;
+  letter-spacing:-0.5px;
+  outline:none;
+}
+
+body, html {
+  width:100%;
+  height:100%;
+  text-align:center;
+  background-color:#f5f9fa;
+}
+
+#center {
+  width:100%;
+  height:50%;
+  margin-bottom:-170px;
+}
+
+#content {
+  margin:auto;
+  padding:20px 0;
+  width:280px;
+  height:270px;
+  background-color:#FFF;
+  border:1px solid #eee;
+}
+
+#content #logo {
+  margin-bottom:10px;
+}
+
+#content #login {
+  margin:auto;
+  padding:5px 25px;
+  font-size:13px;
+  text-align:left;
+  color:#999;
+  font-weight:600;
+}
+
+#content #login #error {
+  background-color:#FFAAAC;
+  font-weight:600;
+  color:#FFF;
+  text-shadow:0 1px 0 #FF0000;
+  padding:3px 0;
+  text-align:center;
+  margin:-8px 0 8px 0;
+  display:none;
+}
+
+#content #login #loader { margin:8px 0 0 120px; display:none; }
+
+#content #login input[type=text], #content #login input[type=password] {
+  padding:5px 10px;
+  width:210px;
+  margin-bottom:20px;
+  border:1px solid #ccc;
+  font-size:13px;
+  color:#bbb;
+}
+#content #login input[type=text]:hover, #content #login input[type=password]:hover,
+#content #login input[type=text]:focus, #content #login input[type=password]:focus {
+  border-color:#b5b5b5;
+  color:#a0a0a0;
+}
+#content #login input[type=text]:focus, #content #login input[type=password]:focus {
+  box-shadow:0 0 15px 0px #dedede;
+}
+
+#content #login input[type=submit] {
+  font-size:13px;
+  padding:5px 25px;
+  margin:5px -2px 0 10px;
+  font-weight:600;
+  color:#FFF;
+  background-color:#8CCBFF;
+  text-shadow:0 1px 0 #0087FF;
+  border:none;
+  float:right;
+}
+#content #login input[type=submit]:hover { background-color:#7CC4FF; cursor:pointer; }

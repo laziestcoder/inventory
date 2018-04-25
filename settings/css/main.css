@@ -1,0 +1,305 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:Open Sans;
+    color:#333;
+    outline:none;
+}
+
+body, html {
+    text-align:center;
+    background-color:#f6f5f5;
+    width:100%;
+    font-size:14px;
+}
+
+/******* General elements ******/
+.clear { clear:both; }
+.fleft { float:left; }
+.fright { float:right; }
+.center { text-align:center; }
+.border {
+    width:100%;
+    height:15px;
+    background-color:#f6f5f5;
+}
+.light {
+    margin-top:2px;
+    color:#b5b5b5;
+}
+.hover:hover { cursor:pointer; }
+.loader {
+    margin:2px 5px;
+    display:none;
+}
+a.btn, a.btn:active, a.btn:visited, input[type=submit].btn {
+    text-decoration:none;
+    font-size:13px;
+    letter-spacing:-0.5px;
+    padding:5px 10px;
+    margin:-4px 10px 0 10px;
+    font-weight:600;
+    color:#FFF;
+    border:none;
+}
+a.btn i {
+    margin-right:8px;
+    color:#FFF;
+}
+.btn.red { background-color:#FF8989; text-shadow:0 1px 0 #ED0F00; }
+.btn.red:hover { background-color:#FF7C7C; cursor:pointer; }
+.btn.red.disabled, .btn.red.disabled:hover { background-color:#FFA5A5 !important; }
+
+.btn.blue { background-color:#8CCBFF; text-shadow:0 1px 0 #0087FF; }
+.btn.blue:hover { background-color:#7CC4FF; cursor:pointer; }
+.btn.blue.disabled, .btn.blue.disabled:hover { background-color:#A5D5FF !important; }
+
+.btn.green { background-color:#6EE268; text-shadow:0 1px 0 #7CE577; }
+.btn.green:hover { background-color:#57E050; cursor:pointer; }
+.btn.green.disabled, .btn.green.disabled:hover { background-color:#9CEA98; }
+.select-holder{
+    position:relative;
+}
+.select-holder i {
+    top:4px;
+    right:8px;
+    z-index:99;
+    position:absolute;
+    color:#a5a5a5;
+}
+select {
+    width:50px;
+    height:20px;
+    font-size:12px;
+    border:1px solid #bbb;
+    color:#aaa;
+    -webkit-appearance:none;
+    -moz-appareance:none;
+    appareance:none;
+    position:absolute;
+    right:0px;
+    top:0px;
+    background-color:#FFF;
+}
+select:hover {
+    border-color:#a5a5a5;
+    color:#888;
+}
+
+h2 {
+    display:inline-block;
+    width:100%;
+    text-align:left;
+    border-bottom:1px solid #d8eef3;
+    color:#527f8a;
+    font-weight:500;
+    margin:15px 0 5px 0;
+}
+h2.noborder {
+    border-bottom:none;
+    margin-bottom:0px;
+}
+h3 {
+    text-align:left;
+    margin-bottom:10px;
+}
+span.downtitle {
+    display:inline-block;
+    width:100%;
+    text-align:left;
+    border-bottom:1px solid #d8eef3;
+    font-weight:400;
+    letter-spacing:-0.5px;
+    color:#aaa;
+    margin:0 0 5px 1px;
+    padding:0 0 6px 0;
+}
+
+
+/******** Main wrapper and header ********/
+#open-menu {
+    padding:10px 10px 12px 10px;
+    text-align:left;
+    background-color:#f7f7f7;
+    font-weight:600;
+    color:#555;
+    display:none;
+    margin:5px 0 -10px 0;
+}
+#open-menu:hover {
+    cursor:pointer;
+}
+#open-menu i {
+    padding:5px 5px 2px 5px;
+    background-color:#FFF;
+    color:#bbb;
+    border:1px solid #ddd;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    margin-right:5px;
+}
+#main-wrapper {
+    margin:0 auto;
+    width:900px;
+    background-color:#FFF;
+}
+#main-wrapper .wrapper-pad {
+    margin:0;
+    padding:0 20px;
+}
+
+#header .left {
+    float:left;
+    padding:8px 0 0 15px;
+}
+
+#header .right {
+    float:right;
+    margin:18px 40px 0 0;
+    color:#aaa;
+    font-weight:300;
+}
+#header .right a, #header .right a:active, #header .right a:visited {
+    font-weight:300;
+    font-size:17px;
+    color:#aaa;
+    text-decoration:none;
+    letter-spacing:-0.8px;
+}
+#header .right a:hover {
+    color:#888;
+}
+#header .right a {
+    margin-right:24px;
+    margin-left:24px;
+}
+#header .right a:first-child {
+    margin-right:24px;
+}
+#header .right a:last-child {
+    margin-left:20px;
+}
+
+
+/******** Menu ********/
+#menu {
+    width:100%;
+    margin-top:8px;
+    background-color:#f5f9fa;
+}
+#menu ul#menuli {
+    list-style:none;
+}
+#menu ul#menuli li {
+    display:inline-block;
+    margin:0;
+}
+#menu ul#menuli li a {
+    padding:10px 20px;
+    display:inline-block;
+    font-weight:300;
+    font-size:15px;
+    letter-spacing:-0.8px;
+    text-decoration:none;
+    color:#333;
+    margin:0;
+}
+#menu ul#menuli li a:hover{
+    background-color:#ebf5f7;
+}
+
+#menu ul#menuli li.active a {
+    background-color:#70abba;
+    color:#FFF;
+}
+#menu ul#menuli li.active a i {
+    color:#FFF;
+}
+#menu ul#menuli li a i {
+    margin-right:1px;
+    color:#899193;
+}
+
+
+
+
+#table-head {
+    width:100%;
+    margin:5px 0;
+    padding-top:5px;
+    height:30px;
+}
+#table-head form input.search {
+    font-size:12px;
+    letter-spacing:-0.6px;
+    padding:2px 5px;
+    margin-top:-2px;
+    border:1px solid #ddd;
+    color:#bbb;
+    width:140px;
+}
+#table-head form input.search:hover, #table-head form input.search:focus {
+    border-color:#ccc;
+    color:#999;
+}
+
+
+
+
+table {
+    width:100%;
+    border:none;
+    text-align:left;
+    border:1px solid #FFF;
+    outline:none;
+}
+table thead tr td {
+    padding:5px 5px 5px 0;
+    text-align:left;
+    font-size:13px;
+    font-weight:600;
+    border-top:1px solid #d0d0d0;
+    border-bottom:1px solid #d0d0d0;
+    border-left:1px solid #FFF;
+    color:#555;
+}
+table thead tr td:nth-child(1), table tbody tr td:nth-child(1) { padding-left:5px; }
+
+table tbody tr td {
+    border-top:1px solid #ddd;
+    border-left:1px solid #FFF;
+    padding:10px 0;
+    font-size:14px;
+    color:#999;
+    border-bottom:1px solid #ddd;
+}
+table tbody tr:hover { background-color:#f7f7f7; }
+table#items-check tbody tr:hover { cursor:pointer; }
+table tbody tr td a { margin-right:8px; }
+table tbody tr a i { color:#ccc; }
+table tbody tr a:hover i  { color:#888; }
+table input[type=checkbox] { margin:4px 0 -5px 0; }
+
+
+
+#pagination {
+    float:right;
+    margin-right:20px;
+    margin-top:15px;
+}
+#pagination .prev, #pagination .next, #pagination .page {
+    float:left;
+    margin-right:10px;
+}
+#pagination .page {
+    margin-top:-1px;
+}
+#pagination .prev i, #pagination .next i {
+    color:#777;
+    font-size:18px;
+}
+#pagination .prev i:hover, #pagination .next i:hover {
+    cursor:pointer;
+    color:#222;
+}
